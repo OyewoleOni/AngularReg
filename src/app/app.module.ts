@@ -1,3 +1,4 @@
+import { SelectRequiredValidatorDirective } from './shared/select.required.directive';
 import { UserService } from './shared/user.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -13,7 +14,8 @@ import { from } from 'rxjs';
   declarations: [
     AppComponent,
     UserComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    SelectRequiredValidatorDirective
   ],
   imports: [
     BrowserModule,
